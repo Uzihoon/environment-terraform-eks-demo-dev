@@ -1,0 +1,15 @@
+adminUser:
+  password: local:terraform-eks-demo/adminUser:password
+  username: uzihoon
+docker:
+  email: admin
+  password: local:terraform-eks-demo/docker:password
+  url: https://index.docker.io/v1/
+  username: uzihoon
+enableDocker: true
+pipelineUser:
+  email: uzihoon.dev@gmail.com
+  token: local:terraform-eks-demo/pipelineUser:token
+  username: uzihoon
+prow:
+  hmacToken: local:terraform-eks-demo/prow:hmacToken
